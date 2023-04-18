@@ -7,7 +7,7 @@ function displayHistory() {
         document.querySelector('.recent-searches').appendChild(historyBtn)
     }
 }
-a
+
 function displayWeather(city) {
     var currentweather = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=4ae990e508f0ee2b6ade16253195b8d2&units=imperial'
     fetch(currentweather)
